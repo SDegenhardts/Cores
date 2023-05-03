@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores</title>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <h1>
+            <span style="color: Black;">Change Colors</span>
+        </h1>
+    </header>
+</head>
+
+<body>
+    <main class="container">
+        <div class="quadrados">
+            <div id="1" class="menores"></div>
+            <div id="2" class="menores"></div>
+            <div id="3" class="menores"></div>
+            <div id="4" class="menores"></div>
+        </div>
+        <div>
+
+            <script>
+                function Azul() {
+                    const change1 = document.getElementById("1")
+                    const change2 = document.getElementById("2")
+                    const change3 = document.getElementById("3")
+                    const change4 = document.getElementById("4")
+                    change1.style.backgroundColor = "Blue"
+                    change2.style.backgroundColor = "Blue"
+                    change3.style.backgroundColor = "Blue"
+                    change4.style.backgroundColor = "Blue"
+                }
+                function Amarelo() {
+                    const change1 = document.getElementById("1")
+                    const change2 = document.getElementById("2")
+                    const change3 = document.getElementById("3")
+                    const change4 = document.getElementById("4")
+                    change1.style.backgroundColor = "Yellow"
+                    change2.style.backgroundColor = "Yellow"
+                    change3.style.backgroundColor = "Yellow"
+                    change4.style.backgroundColor = "Yellow"
+                }
+                function Verde() {
+                    const change1 = document.getElementById("1")
+                    const change2 = document.getElementById("2")
+                    const change3 = document.getElementById("3")
+                    const change4 = document.getElementById("4")
+                    change1.style.backgroundColor = "Green"
+                    change2.style.backgroundColor = "Green"
+                    change3.style.backgroundColor = "Green"
+                    change4.style.backgroundColor = "Green"
+                }
+            </script>
+            <div class="footer">
+                <div class="coluna">
+                    <button onclick="Azul()" class="buttons">Azul</button>
+                    <button onclick="Amarelo()" class="buttons">Amarelo</button>
+                    <button onclick="Verde()" class="buttons">Verde</button>
+
+                </div>
+            </div>
+    </main>
+
+</body>
+
+</html>
